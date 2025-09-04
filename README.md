@@ -107,6 +107,6 @@ Toutes les autres dépendances (PHP, Composer, Nginx, PostgreSQL) sont déjà g�
 ## 📜 Licence
 
 Projet développé par **Gabriel Indriantsilazo Andriamahafaly** 
-INDRIANTSILAZO Andriamahafaly Gabriel
-👨‍💻 Lead Développeur – Zita Company
 
+👨‍💻 Lead Développeur – **Zita Company**
+---
