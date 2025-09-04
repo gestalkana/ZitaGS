@@ -1,0 +1,53 @@
+/* print.css */
+@page {
+    size: A4 landscape;
+    margin: 10mm;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+    }
+
+    body * {
+        visibility: hidden;
+    }
+
+    #zoneImpression, #zoneImpression * {
+        visibility: visible;
+    }
+
+    #zoneImpression {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background: white;
+        color: black;
+        font-family: "Arial", sans-serif;
+        font-size: 14pt;
+    }
+
+    .table-responsive {
+        overflow: visible !important;
+    }
+
+    table {
+        width: 100% !important;
+        table-layout: auto !important;
+        font-size: 10px;
+    }
+
+    th, td {
+        padding: 4px 6px;
+        white-space: nowrap;
+    }
+
+    .no-print {
+        display: none !important;
+    }
+}
